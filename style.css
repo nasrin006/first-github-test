@@ -1,1 +1,152 @@
-h4 {border: 2px solid red;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("./image/home-area.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-content {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+} 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: none; 
+    padding: 15px 5px;
+}
+
+ul li a {
+    text-decoration: none; 
+    font-size: 18px;
+    color: white;
+} 
+h1 {
+    color: white; 
+
+}
+
+.banner-content {
+    width: 100%;
+    height: calc(100vh-70.1px);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; 
+    gap: 25px;
+
+}
+.banner-content p {
+    width: 50%; 
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px;
+} 
+.banner-content h1 {
+    font-size: 60px;
+}
+
+.banner-content h2 {
+    font-size: 40px;
+}
+
+
+.banner-botton-container {
+    margin: 20px;
+    display: flex;
+    gap: 15px; 
+    align-items: center;
+    justify-content: center
+    
+
+}
+
+
+.button-primary {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.button-secendary {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.body {
+    max-width: 1240px; 
+    margin: 0 auto;
+}
+.container1 {
+    margin-top: 100px; 
+    width: 100%;
+    height: calc(100vh-70.1px);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; 
+    gap: 25px;
+    
+
+}
+
+.heading1 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+
+}
+
+.para1 {
+    
+    font-size: 20px;
+    color: slategray;
+
+}
+.para2 {
+    text-align: center;
+    width: 50%; 
+    margin: 0 auto;
+    font-size: 20px;
+    
+
+}
+.container2 {
+      display: flex;
+      margin-top: 5%;
+     justify-content: space-between; 
+}
+.icone{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    background-color: wheat;
+
+}
+
+.container3 {
+      display: flex;
+      margin-top: 5%;
+     justify-content: space-between; 
+}
+
